@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.header h1 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #0073e6;
+}
+.header p {
+    margin: 5px 0;
+    color: #666;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #0073e6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.section p {
+    margin: 5px 0;
+}
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-item {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px; /* Điều chỉnh giá trị này để điều chỉnh độ cong của ô tròn */
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+.personal-info span {
+    font-weight: bold;
+}
+a {
+    color: #0073e6;
+    text-decoration: none;
+}

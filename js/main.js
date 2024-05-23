@@ -1,5 +1,5 @@
 // Fetch data from API and update the HTML content
-fetch('http://18.142.225.143:8080/users')
+fetch('http://18.142.225.143:8080/users/23')
     .then(response => response.json())
     .then(data => {
         document.getElementById('profile-image').src = data.image;

@@ -1,40 +1,118 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
-header {
-    background: url('header-bg.jpg') no-repeat center center;
-    background-size: cover;
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+.navbar-brand {
     font-weight: bold;
+    font-size: 1.5rem;
+    color: #ff6f61;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ff6f61;
+}
+
+.ad-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #343a40;
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    line-height: 1.6;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.social-share .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-ul li {
-    margin: 10px 0;
+.comments-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-ul li a {
-    text-decoration: none;
-    color: #007bff;
+.comments-section h3 {
+    margin-bottom: 20px;
+    color: #343a40;
 }
 
-ul li a:hover {
-    text-decoration: underline;
+.comment {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.comment strong {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.comment p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #555;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card .btn {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.card .btn:hover {
+    background-color: #ff3b28;
 }
